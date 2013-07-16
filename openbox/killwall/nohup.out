@@ -1,0 +1,29 @@
+shadowsocks-local-linux32-0.6: shadowsocks-local-linux32-0.6: cannot execute binary file
+shadowsocks-local-linux32-0.6: shadowsocks-local-linux32-0.6: cannot execute binary file
+2013/07/08 12:30:44 available remote server p1.5bird.com:14724
+2013/07/08 12:30:44 starting local socks5 server at port 8181 ...
+2013/07/09 13:43:34 available remote server p1.5bird.com:14724
+2013/07/09 13:43:34 starting local socks5 server at port 8181 ...
+2013/07/09 13:43:37 available remote server p1.5bird.com:14724
+2013/07/09 13:43:37 starting local socks5 server at port 8181 ...
+2013/07/09 13:58:46 available remote server p1.5bird.com:14724
+2013/07/09 13:58:46 starting local socks5 server at port 8181 ...
+
+(volumeicon:2004): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(volumeicon:2004): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(volumeicon:2004): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(volumeicon:2004): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(volumeicon:2004): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(volumeicon:2004): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(volumeicon:2004): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+
+(volumeicon:2004): Gdk-CRITICAL **: IA__gdk_window_get_root_coords: assertion `GDK_IS_WINDOW (window)' failed
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+2013/07/09 14:08:59 available remote server p1.5bird.com:14724
+2013/07/09 14:08:59 starting local socks5 server at port 8181 ...
