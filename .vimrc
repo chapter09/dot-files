@@ -1,59 +1,23 @@
 set nu
-set ts=4
-set sw=4
+set ts=2
+set sw=2
 set expandtab
+
 syntax on
 if has('mouse')
   set mouse=a
 endif
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags/'
-filetype plugin on
-filetype indent on
 
-" set the runtime path to include Vundle and initialize
+filetype off
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-"
-" " The following are examples of different formats supported.
-" " Keep Plugin commands between vundle#begin/end.
-" " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
-Plugin 'The-NERD-Commenter'
-Plugin 'taglist.vim'
-Plugin 'https://github.com/Lokaltog/vim-powerline'
-" " plugin from http://vim-scripts.org/vim/scripts.html
-Plugin 'L9'
-" " Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
-" " git repos on your local machine (i.e. when working on your own plugin)
-" " The sparkup vim script is in a subdirectory of this repo called vim.
-" " Pass the path to set the runtimepath properly.
-" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" " Avoid a name conflict with L9
-" Plugin 'user/L9', {'name': 'newL9'}
 
-" " All of your Plugins must be added before the following line
-call vundle#end()            " required
-" filetype plugin indent on    " required
-" " To ignore plugin indent changes, instead use:
-filetype plugin on
-" "
-" " Brief help
-" " :PluginList       - lists configured plugins
-" " :PluginInstall    - installs plugins; append `!` to update or just
-" :PluginUpdate
-" " :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" " :PluginClean      - confirms removal of unused plugins; append `!` to
-" auto-approve removal
-" "
-" " see :h vundle for more details or wiki for FAQ
-" " Put your non-Plugin stuff after this line
-
+" set cursorline
+" let Vundle manage Vundle
+" required!
 
 
 " For Powerline
@@ -61,9 +25,70 @@ set nocompatible   " Disable vi-compatibility
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
 
-"colorscheme jellybeans
+" colorscheme vividchalk
+" colorscheme desert
+"
+" set background=dark
+" colorscheme solarized
 
 let Tlist_Ctags_Cmd = "/usr/bin/ctags"
+highlight LineNr ctermfg=grey
 
 set tags=tags;
 set autochdir
+
+let g:hybrid_use_iTerm_colors = 1
+" colorscheme hybrid
+
+Plugin 'gmarik/Vundle.vim'
+
+" The following are examples of different formats supported.
+" " Keep Plugin commands between vundle#begin/end.
+" " plugin on GitHub repo
+Plugin 'tpope/vim-fugitive'
+" " plugin from http://vim-scripts.org/vim/scripts.html
+Plugin 'L9'
+" " Git plugin not hosted on GitHub
+Plugin 'git://git.wincent.com/command-t.git'
+" " git repos on your local machine (i.e. when working on your own plugin)
+" Plugin 'file:///home/gmarik/path/to/plugin'
+" " The sparkup vim script is in a subdirectory of this repo called vim.
+" " Pass the path to set the runtimepath properly.
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'The-NERD-Commenter'
+Plugin 'jellybeans.vim'
+Plugin 'vividchalk.vim'
+Plugin 'Syntastic'
+Plugin 'altercation/vim-colors-solarized' 
+"Plugin 'hybrid.vim'
+Plugin 'taglist.vim'
+Plugin 'scrooloose/nerdtree' 
+"Plugin 'ZenCoding.vim'
+Plugin 'https://github.com/Lokaltog/vim-powerline'
+Plugin 'derekwyatt/vim-scala'
+" " Avoid a name conflict with L9
+" Plugin 'user/L9', {'name': 'newL9'}
+"
+" " All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" autocmd VimEnter * NERDTree
+
+"folding settings
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "dont fold by default
+set foldlevel=1         "this is just what i use
+
+" For Powerline
+set nocompatible
+set laststatus=2
+set statusline+='%F'
+set encoding=utf-8
+let g:Powerline_stl_path_style='full'
+
+colorscheme jellybeans
+
+nnoremap <space> za
+vnoremap <space> zf
