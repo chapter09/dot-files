@@ -58,14 +58,16 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'The-NERD-Commenter'
 Plugin 'jellybeans.vim'
 Plugin 'vividchalk.vim'
-Plugin 'Syntastic'
+"Plugin 'Syntastic'
 Plugin 'altercation/vim-colors-solarized' 
 "Plugin 'hybrid.vim'
 Plugin 'taglist.vim'
 Plugin 'scrooloose/nerdtree' 
 "Plugin 'ZenCoding.vim'
 Plugin 'https://github.com/Lokaltog/vim-powerline'
-Plugin 'derekwyatt/vim-scala'
+Plugin 'https://github.com/nathanaelkane/vim-indent-guides.git'
+  
+"Plugin 'derekwyatt/vim-scala'
 " " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
 "
@@ -81,6 +83,13 @@ set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
 
+" For indent-guides
+
+let g:indent_guides_enable_on_vim_startup=1
+let g:indent_guides_start_level=2
+let g:indent_guides_guide_size=1
+
+
 " For Powerline
 set nocompatible
 set laststatus=2
@@ -88,7 +97,7 @@ set statusline+='%F'
 set encoding=utf-8
 let g:Powerline_stl_path_style='full'
 
-colorscheme jellybeans
+colorscheme desert
 
 nnoremap <space> za
 vnoremap <space> zf
