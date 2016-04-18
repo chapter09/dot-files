@@ -97,7 +97,7 @@ set statusline+='%F'
 set encoding=utf-8
 let g:Powerline_stl_path_style='full'
 
-colorscheme desert
+colorscheme jellybeans
 
 nnoremap <space> za
 vnoremap <space> zf
