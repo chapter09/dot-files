@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Exrand
+~MSle0~/back
 
 # Last Substitute Search Pattern:
 ~MSle0&vivid
@@ -17,48 +17,108 @@
 $trusty
 
 # Command Line History (newest to oldest):
-:q
 :wq
-:Qa
 :w
-:Tlist
-:close
-:help indent-guides
+:q
+:q!
 :qa
+:!
+:Wq
+:PluginInstall
+:Q
+:set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+:help indent-guides
+:74
+:IndentGuidesEnable
+:IndentGuidesToggle
+:ToggleIn:
+:nohl
+:set paste
+:set paset
+:Tlist
+:NERDTree
+:72
+:%s///g
+:27
+:118
+:123
+:%s/add_option/add_argument/g
+:%s/\/root\/shark/\%s/g
+:%s/ssh_shark/cmd/g
+:77
+:%s/\/root\/mapreduce/\%s/g
+:%sadd_option/add_argument/g
+:%s
+:%sadd_option/add_argument%g
+:%s\add_option/add_argument\%g
+:%s\add_option\add_argument\%g
+:%s/add_option/add_argument/%g
+:set paster
+:3
+:help non-zero-arg
+:help zencoding
+:180
+:179
+:444
+:clear
+:Qa
+:close
 :wqa
 :set ig
-:PluginInstall
 :564
-:q!
-:Q
 :!zsh
-:W
-:/mptcp\c
-:/mptcp/i
-:50
-:%s/vivid/trusty/g
 
 # Search String History (newest to oldest):
-?/background
-?/Exrand
-?/E
-?/current
-?/seq_tr
-?/sign
-?/singling
-?/copy
-?/Tlist
-?/sendmsg
-?/pf->
-?/inet_send
-?/.send
-?/ops
-?/inet_create
-?/dst
-?/neighbour
-?/nexthop
-?/tcp_set_sta
-? mptcp\c
+?/back
+?/python
+?/sw
+?/rule
+?/ssh_ret
+?/%s/cmd/execute/g
+?/pref
+?/data-prefix
+?/scale
+?/pg8000
+?/DBAP
+?/store_true
+?/path
+?/\/root\/shark
+?/hdfs
+? add_option
+? \/root\/shark
+? ssh_shark
+? \/root\/mapreduce
+?/p
+?/url_cou
+?/local_query
+?/query_file
+?/runner
+?/query_fukle
+?/clear
+?/cache
+?/parque
+?/remote_query_file
+?/hive
+?/host_key
+? \$\(cursor\|select\)\$
+?/emme
+?/shark_us
+?/opts.shark_ho
+?/opts.shark_hoi
+?/identity_file
+?/iden
+?/add_aws_cred
+?/aws
+?/AWS
+?/user
+?/s3
+?/shark_identity_file
+?/run_shark_be
+?/sys
+?/4
+?/inde
+?/ts
+?/java
 
 # Expression History (newest to oldest):
 
@@ -68,149 +128,1002 @@ $trusty
 
 # Registers:
 "0	LINE	0
-	  /*std::ofstream outfile("scratch/test/large_topo_dctcp_trace/trace.1");*/
+	  parser.add_option("-n", "--scale-factor", type="int", default=5,
+	      help="Number of database nodes (dataset is scaled accordingly)")
 ""1	LINE	0
 	
 "2	LINE	0
-	        /*
-	         *\param current means the flow establish time
-	         *\param ii, jj means the connection node pair
-	         *\param 
-	         */
+	set background=dark
 "3	LINE	0
-	
+	  if opts.redshift:
+	    prepare_redshift_dataset(opts)
 "4	LINE	0
-	
+	  if opts.impala:
+	    prepare_impala_dataset(opts)
 "5	LINE	0
-	
+	10.5.3.3 hao-spark-3
 "6	LINE	0
-	
+	localhost
 "7	LINE	0
-	  
+	10.5.3.3 hao-spark-3 
 "8	LINE	0
-	  App
+	10.5.3.3
 "9	LINE	0
-	
+	    else:
+	        continue
 "-	CHAR	0
-	*
+	i
 
 # File marks:
-'0  1  0  ~/.viminfo
-'1  27  4  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/__Tag_List__
-'2  789  40  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
-'3  91  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
-'4  22  17  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
-'5  509  50  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
-'6  87  32  ~/.vimrc
-'7  1  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
-'8  1375  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
-'9  16  0  ~/DIBS/ns-allinone-3.15/ns-3.15/[Vundle] Installer
+'0  4  19  ~/.vim/after/ftplugin/python.vim
+'1  288  2  ~/benchmarks/savi-benchmarks/run_query.py
+'2  1  0  runner/run_query.py
+'3  9  30  ~/.vim/after/ftplugin/python.vim
+'4  1  17  ~/.vim/after/ftplugin/python.vim
+'5  57  0  ~/.vimrc
+'6  2  0  ~/benchmarks/savi-benchmarks/run_query.py
+'7  208  39  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+'8  372  37  ~/spark-1.6.1/core/pom.xml
+'9  17  0  ~/[Vundle] Installer
 
 # Jumplist (newest first):
--'  1  0  ~/.viminfo
--'  27  4  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/__Tag_List__
--'  3  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/__Tag_List__
--'  2  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/__Tag_List__
--'  223  1  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  789  40  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  91  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  22  17  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  509  50  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1375  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  87  32  ~/.vimrc
+-'  4  19  ~/.vim/after/ftplugin/python.vim
+-'  9  0  ~/.vim/after/ftplugin/python.vim
+-'  1  0  ~/.vim/after/ftplugin/python.vim
+-'  288  2  ~/benchmarks/savi-benchmarks/run_query.py
+-'  303  0  ~/benchmarks/savi-benchmarks/run_query.py
+-'  343  0  ~/benchmarks/savi-benchmarks/run_query.py
+-'  3  0  ~/benchmarks/savi-benchmarks/run_query.py
+-'  1  0  ~/benchmarks/savi-benchmarks/run_query.py
+-'  1  0  runner/run_query.py
+-'  57  0  ~/.vimrc
+-'  108  0  ~/.vimrc
 -'  1  0  ~/.vimrc
--'  998  4  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  248  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  101  0  ~/.vimrc
--'  16  0  ~/DIBS/ns-allinone-3.15/ns-3.15/[Vundle] Installer
--'  68  62  ~/.vimrc
--'  936  39  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  899  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  918  48  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  961  6  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  240  0  ~/DIBS/ns-allinone-3.15/ns-3.15/build/ns3/random-variable.h
--'  837  17  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  903  19  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  871  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  958  21  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  828  20  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1003  24  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  900  6  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  904  1  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  906  5  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  971  4  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  112  0  ~/DIBS/ns-allinone-3.15/ns-3.15/build/ns3/packet-metadata.h
--'  896  47  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  103  0  ~/DIBS/ns-allinone-3.15/ns-3.15/build/ns3/random-variable.h
--'  892  14  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  153  11  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  824  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  2  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  38  17  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  154  10  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  221  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  869  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  728  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1108  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  170  1  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  269  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  408  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  213  58  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  585  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  256  1  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  156  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  564  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  143  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1104  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  515  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  567  19  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  155  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  846  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1117  4  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  263  4  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/__Tag_List__
--'  266  8  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/__Tag_List__
--'  235  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/__Tag_List__
--'  526  10  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  549  1  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  541  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  520  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  519  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  3  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  58  79  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  514  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  35  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  4  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  591  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1032  4  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1024  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1020  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  832  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  831  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  829  60  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1018  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  851  2  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  56  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  49  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  981  7  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  972  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  113  6  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  293  90  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1126  4  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  1016  0  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  895  45  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  962  9  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  40  24  ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
--'  12  20  /etc/network/interfaces
--'  14  0  /etc/network/interfaces
--'  10  0  /etc/network/interfaces
--'  1  0  /etc/network/interfaces
--'  9  0  /etc/network/interfaces
+-'  43  38  ~/.vimrc
+-'  2  0  ~/benchmarks/savi-benchmarks/run_query.py
+-'  208  39  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  1  0  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  372  37  ~/spark-1.6.1/core/pom.xml
+-'  444  0  ~/spark-1.6.1/core/pom.xml
+-'  1  0  ~/spark-1.6.1/core/pom.xml
+-'  17  0  ~/[Vundle] Installer
+-'  420  28  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  363  28  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  285  0  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  391  11  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  1  10  ~/hadoop-2.6.4/etc/datanode-excludes
+-'  60  35  ~/hadoop-2.6.4/etc/hadoop/hdfs-site.xml
+-'  62  0  ~/hadoop-2.6.4/etc/hadoop/hdfs-site.xml
+-'  1  0  ~/hadoop-2.6.4/etc/hadoop/hdfs-site.xml
+-'  7  0  ~/hadoop-2.6.4/etc/hadoop/hdfs-site.xml
+-'  74  40  ~/benchmarks/savi-benchmarks/prepare_benchmark.py
+-'  126  2  ~/benchmarks/savi-benchmarks/prepare_benchmark.py
+-'  1  0  ~/benchmarks/savi-benchmarks/prepare_benchmark.py
+-'  190  28  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  766  12  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  775  17  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  176  40  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  311  19  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  256  76  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  283  28  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  80  6  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  206  43  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  62  43  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  518  11  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  28  7  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  27  19  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  523  9  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  524  9  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  68  0  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  55  42  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  53  42  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  51  38  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  49  48  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  47  45  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  45  46  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  93  48  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  156  17  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  33  27  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  1  0  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  65  41  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  569  14  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  602  2  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  129  21  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  34  28  ~/benchmarks/amplab-benchmarks/runner/udf/url_count.py
+-'  5  1  ~/benchmarks/amplab-benchmarks/runner/NERD_tree_1
+-'  1  0  ~/benchmarks/amplab-benchmarks/runner/NERD_tree_1
+-'  205  8  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+-'  599  11  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark_savi.py
+-'  611  2  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark_savi.py
+-'  478  2  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark_savi.py
+-'  64  40  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark_savi.py
+-'  1  0  ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark_savi.py
+-'  59  0  ~/benchmarks/amplab-benchmarks/runner/run_query_savi.py
+-'  1  0  ~/benchmarks/amplab-benchmarks/runner/run_query_savi.py
+-'  364  60  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  376  66  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  373  2  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  369  2  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  366  2  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  300  43  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  793  28  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  424  0  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  781  0  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  389  21  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  333  0  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  165  0  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  327  35  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  87  0  ~/benchmarks/amplab-benchmarks/runner/tez/apache-hive-0.13.0.2.1.0.0-92-bin/lib/php/transport/TBufferedTransport.php
+-'  297  15  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  360  4  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  309  34  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  377  13  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  378  36  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  438  2  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  367  32  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  302  42  ~/benchmarks/amplab-benchmarks/runner/run_query.py
+-'  850  2  ~/benchmarks/amplab-benchmarks/runner/run_query.py
 
 # History of marks within files (newest to oldest):
 
-> ~/.viminfo
+> ~/.vim/after/ftplugin/python.vim
+	"	4	19
+	^	4	20
+	.	4	19
+	+	14	27
+	+	10	20
+	+	1	20
+	+	9	30
+	+	4	19
+
+> ~/benchmarks/savi-benchmarks/run_query.py
+	"	288	2
+	^	312	2
+	.	314	0
+	+	169	0
+	+	176	15
+	+	177	0
+	+	166	0
+	+	182	0
+	+	341	0
+	+	336	24
+	+	187	0
+	+	214	15
+	+	205	0
+	+	187	0
+	+	200	57
+	+	201	22
+	+	150	18
+	+	169	4
+	+	169	31
+	+	171	17
+	+	157	78
+	+	159	0
+	+	161	0
+	+	209	44
+	+	320	44
+	+	332	0
+	+	320	0
+	+	321	0
+	+	333	0
+	+	182	8
+	+	324	30
+	+	323	9
+	+	324	38
+	+	328	11
+	+	329	28
+	+	209	4
+	+	212	0
+	+	213	39
+	+	246	0
+	+	225	15
+	+	159	29
+	+	160	51
+	+	162	42
+	+	273	0
+	+	317	0
+	+	219	0
+	+	217	0
+	+	218	0
+	+	219	0
+	+	224	0
+	+	226	3
+	+	228	0
+	+	229	5
+	+	267	0
+	+	257	3
+	+	248	3
+	+	249	3
+	+	250	0
+	+	250	53
+	+	250	135
+	+	253	33
+	+	256	3
+	+	253	3
+	+	254	5
+	+	256	5
+	+	257	4
+	+	256	4
+	+	259	0
+	+	260	3
+	+	261	3
+	+	248	0
+	+	250	5
+	+	250	52
+	+	249	1
+	+	250	2
+	+	251	3
+	+	253	1
+	+	256	1
+	+	258	1
+	+	260	1
+	+	261	1
+	+	264	0
+	+	260	1
+	+	344	0
+	+	254	3
+	+	343	0
+	+	336	1
+	+	344	0
+	+	1	13
+	+	1	0
+	+	344	0
+	+	260	2
+	+	255	0
+	+	2	0
+	+	3	0
+	+	302	0
+	+	305	0
+	+	308	2
+	+	309	1
+	+	310	1
+	+	311	2
+	+	312	2
+	+	314	0
+
+> runner/run_query.py
 	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	"	57	0
+	.	57	0
+	+	4	0
+	+	1	5
+	+	44	0
+	+	1	0
+	+	44	0
+	+	1	0
+	+	1	0
+	+	44	0
+	+	33	1
+	+	33	22
+	+	58	0
+	+	50	0
+	+	44	0
+	+	44	0
+	+	44	15
+	+	44	0
+	+	44	0
+	+	44	6
+	+	44	0
+	+	3	0
+	+	12	0
+	+	64	0
+	+	57	0
+	+	12	0
+	+	68	0
+	+	70	0
+	+	72	0
+	+	67	10
+	+	12	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	19
+	+	1	12
+	+	1	0
+	+	109	0
+	+	1	0
+	+	1	52
+	+	3	0
+	+	1	0
+	+	75	0
+	+	75	0
+	+	12	0
+	+	73	0
+	+	75	0
+	+	4	0
+	+	12	29
+	+	4	0
+	+	12	0
+	+	9	0
+	+	12	0
+	+	11	0
+	+	17	0
+	+	45	0
+	+	33	0
+	+	84	0
+	+	79	45
+	+	84	0
+	+	75	0
+	+	81	0
+	+	83	0
+	+	75	0
+	+	57	0
+	+	57	0
+	+	57	0
+	+	57	35
+	+	57	72
+	+	57	0
+	+	35	0
+	+	57	0
+	+	57	5
+	+	57	0
+	+	57	0
+	+	75	0
+	+	105	0
+	+	105	0
+	+	108	0
+	+	75	0
+	+	44	0
+	+	104	0
+	+	68	0
+	+	57	44
+	+	57	25
+	+	57	0
+	+	57	0
+	+	35	0
+	+	51	8
+	+	35	0
+	+	36	62
+	+	35	1
+	+	51	10
+	+	51	0
+	+	54	32
+	+	57	0
+	+	56	30
+	+	66	0
+	+	57	0
+
+> ~/benchmarks/amplab-benchmarks/runner/run_query.py
+	"	56	21
+	^	23	4
+	.	793	0
+	+	793	39
+	+	793	0
+
+> ~/.vim/bundle/vim-indent-guides/doc/indent_guides.txt
+	"	75	32
+
+> ~/spark-1.6.1/core/pom.xml
+	"	372	37
+
+> ~/[Vundle] Installer
+	"	17	0
+	.	1	0
+	+	32	0
+	+	17	0
+	+	1	0
+
+> ~/benchmarks/savi-benchmarks/[Vundle] Installer
+	"	17	0
+	.	1	0
+	+	1	0
+
+> ~/benchmarks/savi-benchmarks/.vimrc
+	"	1	0
+
+> ~/hadoop-2.6.4/etc/datanode-excludes
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/hadoop-2.6.4/etc/hadoop/hdfs-site.xml
+	"	60	35
+	^	60	36
+	.	60	35
+	+	62	155
+	+	20	0
+	+	62	0
+	+	20	0
+	+	56	27
+	+	51	0
+	+	52	15
+	+	61	18
+	+	59	0
+	+	60	35
+
+> ~/benchmarks/savi-benchmarks/prepare_benchmark.py
+	"	74	40
+	^	25	22
+	.	74	0
+	+	22	3
+	+	22	43
+	+	24	37
+	+	51	47
+	+	53	0
+	+	52	0
+	+	33	0
+	+	32	0
+	+	29	0
+	+	41	0
+	+	40	0
+	+	35	0
+	+	41	0
+	+	51	0
+	+	54	1
+	+	62	25
+	+	42	2
+	+	42	2
+	+	56	12
+	+	88	35
+	+	70	0
+	+	70	0
+	+	71	0
+	+	71	6
+	+	89	0
+	+	48	1
+	+	43	0
+	+	46	13
+	+	44	0
+	+	47	0
+	+	71	4
+	+	76	5
+	+	67	0
+	+	71	6
+	+	76	6
+	+	81	6
+	+	87	6
+	+	71	0
+	+	73	39
+	+	73	39
+	+	73	41
+	+	74	3
+	+	79	16
+	+	84	14
+	+	88	46
+	+	117	0
+	+	97	0
+	+	92	6
+	+	92	6
+	+	92	6
+	+	98	6
+	+	104	6
+	+	92	0
+	+	95	78
+	+	96	13
+	+	103	13
+	+	111	0
+	+	116	0
+	+	114	54
+	+	109	78
+	+	122	0
+	+	21	22
+	+	23	22
+	+	28	54
+	+	53	27
+	+	21	45
+	+	51	13
+	+	59	19
+	+	30	57
+	+	66	0
+	+	71	0
+	+	92	22
+	+	98	23
+	+	104	22
+	+	112	22
+	+	92	34
+	+	96	33
+	+	102	0
+	+	110	0
+	+	115	0
+	+	116	0
+	+	111	0
+	+	103	0
+	+	104	24
+	+	98	24
+	+	112	24
+	+	90	2
+	+	91	0
+	+	25	0
+	+	26	39
+	+	25	30
+	+	26	72
+	+	21	24
+	+	23	24
+	+	25	24
+	+	21	22
+	+	23	22
+	+	25	22
+	+	79	0
+	+	74	0
+
+> ~/benchmarks/savi-benchmarks/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/benchmarks/savi-benchmarks/__Tag_List__
+	"	11	4
+	.	14	0
+	+	14	0
+
+> ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.py
+	"	256	76
+	.	121	0
+	+	179	0
+	+	115	0
+	+	121	0
+
+> ~/benchmarks/amplab-benchmarks/runner/run_query_savi.py
+	"	56	35
+
+> ~/spark-1.6.1/conf/spark-env.sh
+	"	48	0
+	^	48	24
+	.	48	23
+	+	48	23
+
+> ~/hadoop-2.6.4/etc/hadoop/core-site.xml
+	"	24	0
+	^	41	15
+	.	41	15
+	+	46	0
+	+	19	15
+	+	45	0
+	+	22	25
+	+	34	20
+	+	26	0
+	+	27	19
+	+	32	0
+	+	27	30
+	+	33	0
+	+	32	50
+	+	30	0
+	+	35	0
+	+	36	15
+	+	41	15
+
+> ~/hadoop-2.6.4/etc/hadoop/hadoop-env.sh
+	"	98	0
+	^	25	48
+	.	25	47
+	+	25	47
+
+> ~/.zshrc
+	"	88	0
+	^	62	39
+	.	62	38
+	+	8	13
+	+	58	48
+	+	59	0
+	+	56	0
+	+	59	12
+	+	59	53
+	+	58	0
+	+	59	49
+	+	58	47
+	+	61	41
+	+	62	38
+
+> ~/benchmarks/amplab-benchmarks/runner/NERD_tree_1
+	"	5	1
+	.	1	0
+	+	1	0
+
+> ~/benchmarks/amplab-benchmarks/runner/udf/url_count.py
+	"	34	28
+
+> ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark_savi.py
+	"	247	34
+	^	246	8
+	.	256	0
+	+	596	0
+	+	598	0
+	+	194	0
+	+	64	38
+	+	65	19
+	+	442	0
+	+	65	19
+	+	183	29
+	+	184	39
+	+	196	0
+	+	58	0
+	+	59	0
+	+	58	26
+	+	58	29
+	+	58	29
+	+	189	73
+	+	199	8
+	+	201	53
+	+	204	8
+	+	207	18
+	+	210	8
+	+	212	40
+	+	213	0
+	+	217	8
+	+	218	50
+	+	243	0
+	+	245	66
+	+	246	7
+	+	256	0
+
+> ~/benchmarks/amplab-benchmarks/runner/tez/apache-hive-0.13.0.2.1.0.0-92-bin/lib/php/transport/TBufferedTransport.php
+	"	87	0
+
+> ~/Downloads/wide_area_spark/deploy/sync.sh
+	"	92	0
+
+> ~/Downloads/wide_area_spark/deploy/ec2_cluster.py
+	"	12	8
+
+> ~/Downloads/wide_area_spark/deploy/start-cluster.sh
+	"	1	0
+
+> ~/Downloads/wide_area_spark/deploy/confs/yarn-env.sh
+	"	81	0
+
+> ~/Downloads/wide_area_spark/deploy/confs/hadoop-env.sh
+	"	21	0
+
+> ~/Downloads/wide_area_spark/deploy/confs/core-site.xml.template
+	"	1	0
+
+> ~/Downloads/wide_area_spark/deploy/confs/hdfs-site.xml
+	"	1	0
+
+> ~/Downloads/wide_area_spark/deploy/cd
+	"	1	0
+
+> ~/spark-1.6.1/python/pyspark/sql/context.py
+	"	466	0
+
+> ~/spark-1.6.1/python/pyspark/context.py
+	"	828	51
+	n	811	33
+
+> ~/.bashrc
+	"	79	0
+
+> ~/hive-1.2.1/conf/hive-env.sh
+	"	54	0
+	^	48	38
+	.	48	37
+	+	48	95
+	+	48	37
+
+> ~/hive-1.2.1/conf/hive-site.xml
+	"	56	4
+	^	3	0
+	.	56	0
+	+	1	15
+	+	2	12
+	+	8	0
+	+	4	0
+	+	5	26
+	+	45	26
+	+	20	0
+	+	18	3
+	+	2	59
+	+	51	0
+	+	50	27
+	+	56	0
+	+	55	0
+	+	56	0
+
+> /etc/ansible/ansible.cfg
+	"	81	0
+	^	39	0
+	.	39	0
+	+	39	0
+
+> /etc/ansible/hosts
+	"	45	10
+	^	45	11
+	.	45	10
+	+	52	2
+	+	49	9
+	+	50	9
+	+	49	10
+	+	50	10
+	+	51	9
+	+	52	10
+	+	51	10
+	+	52	10
+	+	48	10
+	+	47	10
+	+	46	10
+	+	45	10
+
+> ~/hive-1.2.1/conf/[Vundle] Installer
+	"	17	0
+	.	1	0
+	+	17	0
+	+	1	0
+
+> ~/hive-1.2.1/conf/hive-default.xml
+	"	3909	0
+
+> ~/apache-hive-1.2.1-bin/NERD_tree_1
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/benchmarks/amplab-benchmarks/runner/run_scripts/run_shark.sh
+	"	35	0
+
+> ~/.tmux.conf
+	"	150	28
+	^	150	29
+	.	150	0
+	+	148	0
+	+	147	7
+	+	150	0
+
+> ~/benchmarks/amplab-benchmarks/runner/run-query.sh
+	"	8	0
+
+> ~/datasets/bdbench-1node-uservisits/part-00000
+	"	1	0
+
+> ~/benchmarks/amplab-benchmarks/runner/prepare-benchmark.sh
+	"	1	0
+
+> ~/benchmarks/amplab-benchmarks/runner/prepare_benchmark.sh
+	"	1	0
+
+> ~/spark-1.6.1/conf/slaves
+	"	22	0
+	^	22	20
+	.	22	0
+	+	23	0
+	+	22	2
+	+	21	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+
+> ~/scripts/rsync.py
+	"	50	17
+	^	24	18
+	.	24	17
+	+	41	7
+	+	42	3
+	+	42	7
+	+	50	3
+	+	52	3
+	+	53	3
+	+	54	3
+	+	44	0
+	+	5	0
+	+	5	33
+	+	5	33
+	+	5	33
+	+	55	0
+	+	11	29
+	+	11	29
+	+	38	3
+	+	1	17
+	+	2	0
+	+	14	50
+	+	22	0
+	+	15	56
+	+	16	21
+	+	16	21
+	+	22	0
+	+	16	55
+	+	17	13
+	+	17	52
+	+	18	34
+	+	19	14
+	+	18	40
+	+	16	29
+	+	18	51
+	+	17	19
+	+	19	55
+	+	22	0
+	+	24	11
+	+	13	26
+	+	13	34
+	+	23	0
+	+	28	0
+	+	28	0
+	+	28	10
+	+	5	0
+	+	12	0
+	+	13	33
+	+	14	18
+	+	16	18
+	+	18	18
+	+	23	0
+	+	13	0
+	+	28	0
+	+	26	0
+	+	27	0
+	+	24	18
+	+	26	21
+	+	24	20
+	+	27	8
+	+	31	32
+	+	50	66
+	+	6	8
+	+	35	7
+	+	36	0
+	+	35	43
+	+	36	0
+	+	34	15
+	+	39	15
+	+	38	0
+	+	42	0
+	+	39	0
+	+	38	27
+	+	39	4
+	+	41	30
+	+	39	16
+	+	38	28
+	+	39	8
+	+	41	7
+	+	54	0
+	+	25	21
+	+	24	20
+	+	25	0
+	+	32	0
+	+	41	0
+	+	40	14
+	+	45	54
+	+	7	12
+	+	48	3
+	+	54	0
+	+	48	3
+	+	50	0
+	+	48	42
+	+	49	0
+	+	48	21
+	+	49	15
+	+	46	0
+	+	20	50
+	+	21	46
+	+	50	56
+	+	51	0
+	+	50	62
+	+	24	17
+
+> ~/spark-env.sh
+	"	1	0
+
+> ~/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/host-list
+	"	3	0
+	^	4	9
+	.	3	0
+	+	2	19
+	+	1	14
+	+	3	19
+	+	4	0
+	+	5	0
+	+	3	10
+	+	4	10
+	+	5	0
+	+	3	0
+	+	3	19
+	+	4	15
+	+	1	9
+	+	2	9
+	+	3	0
+	+	3	0
+	+	3	8
+	+	3	8
+	+	4	0
+	+	5	0
+	+	4	8
+	+	3	0
+
+> ~/hadoop-2.6.4/etc/hadoop/slaves
+	"	3	0
+	.	3	0
+	+	1	8
+	+	2	7
+	+	4	2
+	+	3	7
+	+	3	0
+
+> ~/hadoop-2.6.4/logs/hadoop-ubuntu-namenode-hao-spark-1.log
+	"	110	0
+
+> ~/hadoop-2.6.4/logs/hadoop-ubuntu-namenode-hao-spark-1.
+	"	1	0
+
+> ~/hadoop-2.6.4/logs/hadoop-ubuntu-datanode-hao-spark-1.log
+	"	158	0
+
+> ~/test.c
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/test.py
+	"	3	0
+	^	3	0
+	.	2	0
+	+	2	0
+
+> /etc/hosts
+	"	1	0
+	^	10	0
+	.	10	0
+	+	8	0
+	+	3	17
+	+	2	0
+	+	15	2
+	+	10	0
+
+> ~/hadoop-2.6.4/sbin/start-dfs.sh
+	"	55	54
+
+> ~/.ssh/known_hosts
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.ssh/authorized_keys
+	"	1	0
+
+> ~/spark-1.6.1/README.md
+	"	50	0
+
+> ~/Downloads/spark-1.6.1/pom.xml
+	"	166	0
+
+> /usr/local/apache-maven-3.3.3/bin/mvn
+	"	1	0
+	^	2	3
+	.	2	0
+	+	2	0
+
+> ~/Downloads/spark-1.6.1/build/mvn
+	"	152	0
+
+> ~/spark-1.6.1/.zshrc
+	"	1	0
+
+> ~/spark-1.6.1/RE
+	"	1	0
+
+> ~/hadoop-2.6.4-src/BUILDING.txt
+	"	25	0
+
+> ~/Downloads/alluxio-1.0.1/core/server/src/main/java/alluxio/master/lineage/LineageMaster.java
+	"	24	53
+
+> ~/Downloads/alluxio-1.0.1/core/server/src/main/java/alluxio/MasterStorageTierAssoc.java
+	"	1	0
+
+> ~/Downloads/alluxio-1.0.1/core/server/src/main/java/alluxio/Format.java
+	"	1	0
+
+> ~/scripts/update-scala.sh
+	"	19	0
+	.	19	0
+	+	19	0
+
+> ~/.viminfo
+	"	580	1
 
 > ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/test.cc
 	"	1043	34
@@ -336,29 +1249,6 @@ $trusty
 	+	61	0
 	+	31	0
 
-> ~/.vim/bundle/vim-indent-guides/doc/indent_guides.txt
-	"	165	78
-
-> ~/.vimrc
-	"	1	0
-	^	88	42
-	.	88	42
-	+	100	0
-	+	70	0
-	+	61	0
-	+	69	0
-	+	68	62
-	+	88	32
-	+	90	31
-	+	88	32
-	+	88	0
-	+	87	0
-	+	88	40
-	+	89	0
-	+	88	6
-	+	89	1
-	+	88	42
-
 > ~/DIBS/ns-allinone-3.15/ns-3.15/scratch/test/large_topo_dctcp_trace/trace.1
 	"	94	47
 
@@ -425,13 +1315,6 @@ $trusty
 	+	14	0
 	+	11	20
 
-> /etc/hosts
-	"	3	17
-	^	3	18
-	.	3	17
-	+	8	0
-	+	3	17
-
 > ~/DIBS/ns-allinone-3.15/ns-3.15/test.py
 	"	1205	71
 
@@ -452,12 +1335,6 @@ $trusty
 > ~/DIBS/ns-allinone-3.15/ns-3.15/doc/manual/figures/.svn/entries
 	"	1	0
 
-> ~/.zshrc
-	"	8	13
-	^	8	14
-	.	8	13
-	+	8	13
-
 > ~/Code/Kernel/linux-4.1.3/net/ipv4/af_inet.c
 	"	741	25
 
@@ -466,116 +1343,3 @@ $trusty
 
 > ~/Code/Kernel/linux-4.1.3/arch/powerpc/include/asm/ps3.h
 	"	120	1
-
-> ~/Code/Kernel/linux-4.1.3/arch/x86/include/asm/uv/uv_bau.h
-	"	579	0
-
-> ~/Code/Kernel/linux-4.1.3/include/net/protocol.h
-	"	79	0
-
-> ~/Code/Kernel/linux-4.1.3/net/ipv4/__Tag_List__
-	"	60	4
-	.	236	0
-	+	345	0
-	+	236	0
-
-> ~/Downloads/mptcp-mptcp_v0.89/net/ipv4/tcp_ipv4.c
-	"	40	33
-
-> ~/Downloads/mptcp-mptcp_v0.89/net/ipv4/__Tag_List__
-	"	85	13
-	.	113	0
-	+	225	0
-	+	262	0
-	+	113	0
-
-> ~/Code/Kernel/linux-4.1.3/include/net/sock.h
-	"	376	8
-
-> ~/Code/Kernel/linux-4.1.3/include/net/route.h
-	"	51	13
-	.	116	21
-	+	51	11
-	+	116	21
-
-> ~/Code/Kernel/linux-4.1.3/include/net/dst.h
-	"	403	65
-
-> ~/Code/Kernel/linux-4.1.3/include/net/neighbour.h
-	"	142	0
-
-> ~/Code/Kernel/linux-4.1.3/net/ipv4/tcp_ipv4.c
-	"	178	54
-
-> ~/Code/Kernel/linux-4.1.3/drivers/net/wireless/ti/wlcore/wlcore.h
-	"	431	0
-
-> ~/Code/Kernel/linux-4.1.3/net/ipv4/tcp.c
-	"	1906	11
-
-> ~/Code/Kernel/linux-4.1.3/net/core/sock.c
-	"	1595	8
-
-> ~/Code/Kernel/linux-4.1.3/include/net/flow.h
-	"	59	0
-
-> ~/Code/Kernel/linux-4.1.3/arch/arm/include/asm/kvm_mmio.h
-	"	27	0
-
-> ~/Code/Kernel/linux-4.1.3/net/ipv4/tcp_output.c
-	"	3225	4
-
-> ~/Downloads/mptcp-mptcp_v0.89/include/linux/tcp.h
-	"	440	1
-
-> ~/tcp_ipv4.c
-	"	366	21
-
-> ~/Code/Kernel/linux-4.1.3/net/ipv4/tcp_ipv4_mptcp.c
-	"	376	0
-	^	2579	1
-	.	98	0
-	+	2580	0
-	+	98	0
-
-> ~/Code/Kernel/linux-4.1.3/include/net/ip.h
-	"	173	3
-
-> ~/Code/Kernel/linux-4.1.3/include/linux/net.h
-	"	1	0
-
-> ~/[Vundle] Installer
-	"	17	0
-	.	1	0
-	+	1	0
-
-> /etc/apt/sources.list
-	"	10	0
-	^	10	91
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	16
-	+	1	0
-	+	1	16
-	+	1	0
-	+	1	16
-	+	1	0
-	+	1	16
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	11
-	+	1	0
-	+	1	100
-	+	1	77
-	+	10	0
-	+	1	0
-
-> /etc/resolv.conf
-	"	1	0
-
-> /etc/networks
-	"	1	0
