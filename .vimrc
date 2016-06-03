@@ -34,7 +34,8 @@ Plugin 'mattn/emmet-vim'
 Plugin 'https://github.com/Lokaltog/vim-powerline'
 "Plugin 'Yggdroot/indentLine'
 Plugin 'https://github.com/nathanaelkane/vim-indent-guides.git'
-  
+Plugin 'chase/vim-ansible-yaml'  
+Plugin 'lepture/vim-jinja'
 "Plugin 'derekwyatt/vim-scala'
 " " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
