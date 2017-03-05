@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Nova.tmTheme",
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Emmet",
+		"Vintage"
+	],
+	"remember_open_files": false,
+	"rulers":
+	[
+		80
+	],
+	"theme": "Boxy Nova.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "show_encoding": true,
+	"word_wrap": true
+}
