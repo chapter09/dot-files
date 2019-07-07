@@ -1,0 +1,10 @@
+# installing a new environments add these packages by default
+create_default_packages:
+  - python
+  - pip
+  - ipython
+
+always_yes: True
+
+envs_dirs:
+  - /mnt/.conda/envs/
