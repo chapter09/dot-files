@@ -27,7 +27,7 @@ Plugin 'jellybeans.vim'
 Plugin 'vividchalk.vim'
 "Plugin 'Syntastic'
 Plugin 'altercation/vim-colors-solarized' 
-"Plugin 'hybrid.vim'
+Plugin 'hybrid.vim'
 Plugin 'taglist.vim'
 Plugin 'scrooloose/nerdtree' 
 Plugin 'mattn/emmet-vim'
@@ -65,7 +65,7 @@ set statusline+='%F'
 set encoding=utf-8
 let g:Powerline_stl_path_style='full'
 
-colorscheme jellybeans
+"colorscheme jellybeans 
 
 " For ctags
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags/'
@@ -74,7 +74,7 @@ set tags=tags;
 set autochdir
 
 let g:hybrid_use_iTerm_colors = 1
-" colorscheme hybrid
+"colorscheme hybrid
 
 set autoindent
 set cindent
